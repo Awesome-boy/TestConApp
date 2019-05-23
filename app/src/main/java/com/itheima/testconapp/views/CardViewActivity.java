@@ -86,7 +86,7 @@ public class CardViewActivity extends AppCompatActivity implements View.OnClickL
             }
         });
         final Bitmap bitmap = BitmapFactory.decodeResource(getResources(),
-                R.mipmap.person);
+                R.mipmap.girl);
         imageView.getViewTreeObserver().addOnPreDrawListener(
                 new ViewTreeObserver.OnPreDrawListener() {
                     @Override

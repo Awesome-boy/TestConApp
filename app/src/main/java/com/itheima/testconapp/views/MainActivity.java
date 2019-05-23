@@ -14,6 +14,7 @@ import android.widget.ArrayAdapter;
 
 import com.itheima.testconapp.R;
 import com.itheima.testconapp.utils.DHCoder;
+import com.itheima.testconapp.utils.SecretUtils;
 import com.itheima.testconapp.widget.MyListView;
 
 import java.util.ArrayList;
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements MyListView.LoadLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         initData();
+        threeDes();
         try {
             initLog();
         } catch (Exception e) {
@@ -58,6 +60,18 @@ public class MainActivity extends AppCompatActivity implements MyListView.LoadLi
         }
         initView();
         createObserval();
+    }
+
+    private void threeDes() {
+        String msg = "3DES加密解密案例";
+        //加密
+                 byte[] secretArr = SecretUtils.encryptMode(msg.getBytes());
+                 System.out.println("【加密后】：" + new String(secretArr));
+                    System.out.println("【加密后】：" +new String(secretArr));
+
+                 //解密
+                 byte[] myMsgArr = SecretUtils.decryptMode(secretArr);
+                 System.out.println("【解密后】：" + new String(myMsgArr));
     }
 
     private void createObserval() {

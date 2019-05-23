@@ -1,10 +1,13 @@
 package com.itheima.testconapp.javabean;
 
+import java.io.Serializable;
+
 /**
  * Created by zt on 2019/5/16.
  */
-public class City {
+public class City implements Serializable {
 
+    private static final long serialVersionUID = 2457463820339316299L;
     /**
      * cityName : 鞍山
      * firstLetter : A
