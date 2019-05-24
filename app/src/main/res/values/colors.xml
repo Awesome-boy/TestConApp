@@ -11,6 +11,7 @@
     <color name="color_item_bg">#FFFFFF</color>
     <color name="color_text_unselected">#B0B0B0</color>
     <color name="color_desc">#666666</color>
+    <color name="background_color">#f6f6f6</color>
     <color name="color_result">#57C5E8</color>
     <color name="color_bg">#b0000000</color>
     <color name="color_gold">#ffda53</color>
@@ -30,4 +31,19 @@
     <color name="red_btn_color_normal">#eb4f38</color>
     <color name="white_color_disable">#7fffffff</color>
     <color name="transparent">#0000</color>
+    <color name="notice_text_color">#999999</color>
+    <color name="default_text_color">#666666</color>
+    <color name="main_black_text">#333333</color>
+    <color name="main_red_text">#e53e42</color>
+    <color name="main_white_text">#ffffff</color>
+    <color name="protocol_text">#3C68FE</color>
+    <!--图标-->
+    <color name="abate_icon_color">#bbbbbb</color>
+    <color name="default_icon_color">#999999</color>
+    <color name="pressed_icon_color">#e53e42</color>
+
+    <!--CycleViewPager-->
+    <color name="cycle_image_bg">#44222222</color>
+
+    <!-- 透明 -->
 </resources>

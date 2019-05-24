@@ -61,7 +61,7 @@
             <!-- <data android:mimeType="*/*" /> -->
             <!-- </intent-filter> -->
         </activity>
-        <activity android:name=".KlotlinActivity" />
+        <activity android:name=".views.OrderInfoActivity"/>
         <activity android:name=".views.TabLayoutActivity" />
         <activity android:name=".views.MarkWordActivity" />
         <activity android:name=".views.CustomerViewActivity"></activity>

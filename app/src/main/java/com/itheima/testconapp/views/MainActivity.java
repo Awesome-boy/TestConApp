@@ -265,6 +265,9 @@ public class MainActivity extends AppCompatActivity implements MyListView.LoadLi
                     case 7:
                         startActivity(new Intent(MainActivity.this, CreateOrderActivity.class));
                         break;
+                    case 8:
+                        startActivity(new Intent(MainActivity.this, OrderInfoActivity.class));
+                        break;
                 }
             }
         });
